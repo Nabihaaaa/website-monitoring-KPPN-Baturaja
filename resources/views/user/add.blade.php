@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Tambah User</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('user')}}">
         User

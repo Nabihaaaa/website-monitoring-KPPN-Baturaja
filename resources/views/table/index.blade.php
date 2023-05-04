@@ -1,4 +1,9 @@
 @extends('main')
+
+@section('head')
+    <title>Table - Monitoring Kegiatan KPPN Baturaja</title>
+@endsection
+
 @section('title')
     <a class="navbar-brand" href="{{url('table-kegiatan')}}">
         Tabel Kegiatan

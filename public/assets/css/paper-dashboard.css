@@ -6132,6 +6132,7 @@ strong {
 .off-canvas-sidebar .logo a.logo-normal {
     display: block;
     opacity: 1;
+    text-align: center;
     -webkit-transform: translate3d(0px, 0, 0);
     -moz-transform: translate3d(0px, 0, 0);
     -o-transform: translate3d(0px, 0, 0);

@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-4 ">
                             @if($user->photo == null)
-                                <img src="{{asset('assets/img/faces/user1.png')}}" style="border: 2px solid #66615b; padding: 5px;"/>
+                                <img src="{{asset('img/user.png')}}" style="border: 2px solid #66615b; padding: 5px;"/>
                             @else
                                 <?php
                                     $resizedImage = Image::make($user->photo)->fit(400, 400)->encode('data-url');

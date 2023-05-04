@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Tambah Referensi Pegawai</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('referensi/pegawai')}}">
         Referensi

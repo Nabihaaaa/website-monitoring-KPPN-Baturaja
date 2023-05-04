@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Referensi Pegawai - Monitoring Kantor KPPN Batu Raja</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('referensi/pegawai')}}">
         Referensi

@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Edit Bukti</title>
+@endsection
 @section('title')
     @if ($r == 'all')
         <a class="navbar-brand" href="{{url('table-kegiatan-all/'.$route)}}">

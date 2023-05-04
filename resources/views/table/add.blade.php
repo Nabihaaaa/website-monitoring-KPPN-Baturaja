@@ -1,4 +1,9 @@
 @extends('main')
+
+@section('head')
+    <title>Tambah Table</title>
+@endsection
+
 @section('title')
     @if ($role == 'all')
         <a class="navbar-brand" href="{{url('table-kegiatan-all/'.$table)}}">

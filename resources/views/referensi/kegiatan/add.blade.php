@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Tambah Referensi Kegiatan</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('referensi/kegiatan')}}">
         Referensi

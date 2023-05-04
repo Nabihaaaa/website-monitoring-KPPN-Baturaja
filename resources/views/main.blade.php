@@ -3,17 +3,14 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/img/favicon.png">
+    <link rel="icon" type="image/svg+xml" sizes="96x96" href="{{asset('img/kemenkeu.svg')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('img/kemenkeu.png')}}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Kegiatan Monitoring KPPN Batu Raja</title>
-
+    @yield('head')
+    <title>Monitoring Kegiatan KPPN Batu Raja</title>
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
-
     <link href="{{asset('assets/css/paper-dashboard.css')}}" rel="stylesheet" />
-
     <link href="{{asset('assets/css/demo.css')}}" rel="stylesheet" />
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
     <link href="{{asset('assets/css/themify-icons.css')}}" rel="stylesheet">
@@ -21,18 +18,14 @@
 </head>
 
 <body>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-
     <div class="wrapper">
         <div class="sidebar" data-background-color="brown" data-active-color="danger">
-
-            <div class="logo">
-                <a href="" class="simple-text logo-mini">
-                    KBR
-                </a>
-                <a href="" class="simple-text logo-normal">
-                    KPPN Batu Raja
+            <div class="logo" >
+                {{-- <a href="{{url('dashboard')}}" class="simple-text logo-mini">
+                    MK
+                </a> --}}
+                <a href="{{url('dashboard')}}" class="simple-text logo-normal" >
+                    Monitoring Kegiatan
                 </a>
             </div>
             <div class="sidebar-wrapper">

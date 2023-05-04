@@ -729,7 +729,7 @@ class TableAllController extends Controller
             $table_data = SeksiMski::get();
             $view = "table-all.mski";
             $upload = SeksiMskiUpload::get();
-            $f_key = 'id_seksi_mski';
+            $f_key = 'id_seksi_MSKI';
             $table = $mski;
         }
         else if ($table == "dana") {

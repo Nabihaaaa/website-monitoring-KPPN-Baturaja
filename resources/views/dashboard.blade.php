@@ -1,5 +1,9 @@
 @extends('main')
 
+@section('head')
+    <title> Dashboard - Monitoring Kegiatan KPPN Baturaja</title>
+@endsection
+
 @section('title')
     <a class="navbar-brand" href="{{url('dashboard')}}">
         Dashboard

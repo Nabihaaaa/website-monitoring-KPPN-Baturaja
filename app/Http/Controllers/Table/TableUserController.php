@@ -684,7 +684,7 @@ class TableUserController extends Controller
             $table_category = 'Tabel Monitoring Kegiatan Seksi MSKI';
             $table_data = SeksiMski::get();
             $upload = SeksiMskiUpload::get();
-            $f_key = 'id_seksi_mski';
+            $f_key = 'id_seksi_MSKI';
             $table = $mski;
         }
         else if ($request->user()->hasrole($dana)) {

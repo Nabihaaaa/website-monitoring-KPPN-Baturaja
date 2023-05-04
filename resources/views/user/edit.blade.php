@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Edit User</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('user')}}">
         User
@@ -52,7 +55,7 @@
                         <input type="text" placeholder="jabatan" class="form-control" id="jabatan" name="jabatan" value="{{$table_data->jabatan}}" required>
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-fill btn-info">Submit</button>
+                    <button type="submit" class="btn btn-fill btn-info">Update</button>
                     </form>
                 </div>
             </div>

@@ -1,4 +1,7 @@
 @extends('main')
+@section('head')
+    <title>Data User - Monitoring Kantor KPPN Batu Raja</title>
+@endsection
 @section('title')
     <a class="navbar-brand" href="{{url('user')}}">
         User
