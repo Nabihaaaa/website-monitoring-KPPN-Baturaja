@@ -33,10 +33,13 @@
                 <div class="card-content">
                     <table id="bootstrap-table" class="table table-striped ">
                         <div class="toolbar" >
-                            <a class="btn btn-primary" href="{{url('/table-kegiatan-all/umum/add')}}">
+                            <div class="columns colums-left pull-left">
+                                <a class="btn btn-primary" href="{{url('/table-kegiatan-all/umum/add')}}">
                                 <i class="fa fa-plus-square"></i>
                                 Tambah
-                            </a>
+                                </a>
+                            </div>
+                            
                         </div>
 
                         <thead style="height: 100px">
